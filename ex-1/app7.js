@@ -1,12 +1,12 @@
-var letra=prompt("Introduce una letra para encontar en la frase");
-var frase=prompt("Introduce una frase");
-
-cont=0;
-for (i=0;i<frase.length;i++) {
-
-if(letra==frase[i]){
-    cont++;
+function contar () {
+    let caracter='a', cont =0;
+    var palabra = prompt("Pon una palabra")
+    for(var i=0; i<palabra.length; i++){
+    if (palabra[i] == caracter){
+        cont++
+    }     
+    }
+    alert('la cantidad de a es: '+cont)
 }
-}
 
-alert(" la letra " + letra +" se repite " + cont + " veces");
+contar()

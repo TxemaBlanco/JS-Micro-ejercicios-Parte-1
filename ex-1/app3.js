@@ -1,3 +1,2 @@
- nombre=prompt("Introduce tu nombre");
- var saludo="Hola";
- alert(saludo + " " + nombre);
+var nombre= prompt("Escribe tu nombre");
+document.write("Hola " + nombre);
